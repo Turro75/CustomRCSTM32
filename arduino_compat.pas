@@ -78,6 +78,8 @@ function Power(Base: longint; Expon: longint): longint;
 function Power(Base: double; Expon: double): double;
 
 
+
+
 //time
 procedure delay(ms_delay: dword);
 procedure delayMicroseconds(us_delay: longint);
