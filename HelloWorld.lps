@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Release"/>
+    <Units Count="38">
+      <Unit0>
+        <Filename Value="HelloWorld.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="91"/>
+        <CursorPos X="1" Y="5"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="arduino_compat.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Arduino_compat"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="85"/>
+        <CursorPos X="74" Y="93"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="hwserial.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="HWSerial"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="180"/>
+        <CursorPos X="5" Y="207"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="hwspi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="HWSPI"/>
+        <EditorIndex Value="20"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="58"/>
+        <CursorPos X="5" Y="129"/>
+        <UsageCount Value="207"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="main"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="207"/>
+        <CursorPos X="4" Y="168"/>
+        <FoldState Value=" T3oO032*"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="stm32f103fw.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="stm32f103fw"/>
+        <EditorIndex Value="14"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="775"/>
+        <CursorPos X="15" Y="669"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="interrupts.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="interrupts"/>
+        <EditorIndex Value="19"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="18"/>
+        <CursorPos X="5" Y="435"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="nokia1100_lcd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Nokia1100_LCD"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="13"/>
+        <CursorPos X="73" Y="236"/>
+        <UsageCount Value="200"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="nrf24l01.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="NRF24L01"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="453"/>
+        <CursorPos X="5" Y="582"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="yd717out.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="YD717OUT"/>
+        <EditorIndex Value="18"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="237"/>
+        <CursorPos X="7" Y="263"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="commontx.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="commontx"/>
+        <EditorIndex Value="11"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="566"/>
+        <CursorPos X="44" Y="236"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="hwtimer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="HWTimer"/>
+        <EditorIndex Value="16"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="109" Y="4"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="ppmout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="PPMOUT"/>
+        <EditorIndex Value="12"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="189"/>
+        <CursorPos X="5" Y="216"/>
+        <UsageCount Value="224"/>
+        <Loaded Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="menubackend.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="MenuBackend"/>
+        <EditorIndex Value="8"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="32"/>
+        <CursorPos X="8" Y="406"/>
+        <UsageCount Value="210"/>
+        <Loaded Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="simplemenu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SimpleMenu"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="46" Y="16"/>
+        <UsageCount Value="214"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="mbedmenu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mbedMenu"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="209"/>
+        <CursorPos X="6" Y="82"/>
+        <UsageCount Value="213"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="mylist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="MyList"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="96"/>
+        <CursorPos X="12" Y="15"/>
+        <UsageCount Value="209"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="channelmixer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="channelMixer"/>
+        <EditorIndex Value="21"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="28"/>
+        <CursorPos X="5" Y="211"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="modelmanager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ModelManager"/>
+        <EditorIndex Value="13"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="137"/>
+        <CursorPos X="87" Y="109"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="flysout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FLYSOUT"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="85"/>
+        <CursorPos X="5" Y="112"/>
+        <UsageCount Value="71"/>
+        <Loaded Value="True"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="v2x2out.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="V2X2OUT"/>
+        <EditorIndex Value="17"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="171"/>
+        <CursorPos X="49" Y="350"/>
+        <UsageCount Value="138"/>
+        <Loaded Value="True"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="ssd1306spi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ssd1306SPI"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="982"/>
+        <CursorPos X="3" Y="843"/>
+        <UsageCount Value="58"/>
+        <Loaded Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="cx10_a.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CX10_A"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="127"/>
+        <CursorPos X="3" Y="204"/>
+        <UsageCount Value="58"/>
+        <Loaded Value="True"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="myadc.pas"/>
+        <UnitName Value="MyADC"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="7"/>
+        <CursorPos X="44" Y="12"/>
+        <UsageCount Value="8"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="C:\lazarus\fpc\3.1.1\rtl\embedded\arm\stm32f10x_md.pp"/>
+        <UnitName Value="stm32f10x_md"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="266"/>
+        <CursorPos X="2" Y="241"/>
+        <UsageCount Value="6"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="C:\lazarus\fpc\3.1.1\rtl\embedded\system.pp"/>
+        <UnitName Value="System"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="20"/>
+        <CursorPos X="5" Y="34"/>
+        <UsageCount Value="6"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="..\..\lazarus\fpc\3.1.1\rtl\embedded\system.pp"/>
+        <UnitName Value="System"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="18"/>
+        <CursorPos X="5" Y="34"/>
+        <UsageCount Value="6"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="gdb_init.txt"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="18" Y="6"/>
+        <UsageCount Value="2"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="..\..\lazarus\components\lazcontrols\treefilteredit.pas"/>
+        <UnitName Value="TreeFilterEdit"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="45"/>
+        <CursorPos X="31" Y="61"/>
+        <UsageCount Value="6"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="..\..\Scaricati\fpc\fpc-3.1.1\rtl\embedded\arm\cortexm3.pp"/>
+        <UnitName Value="cortexm3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="85"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="34"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="..\..\Scaricati\fpc\fpc-3.1.1\rtl\inc\systemh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1079"/>
+        <CursorPos X="11" Y="1096"/>
+        <UsageCount Value="2"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="..\..\Scaricati\fpc\fpc-3.1.1\rtl\embedded\arm\stm32f10x_md.pp"/>
+        <UnitName Value="stm32f10x_md"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="403"/>
+        <CursorPos X="41" Y="435"/>
+        <UsageCount Value="92"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="C:\lazarus\fpc\3.1.1\source\rtl\embedded\arm\stm32f10x_md.pp"/>
+        <UnitName Value="stm32f10x_md"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="419"/>
+        <CursorPos X="3" Y="319"/>
+        <UsageCount Value="16"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="..\..\Scaricati\fpc\trunk\fpc\rtl\embedded\system.pp"/>
+        <UnitName Value="System"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="28"/>
+        <CursorPos X="5" Y="42"/>
+        <UsageCount Value="2"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="..\..\Scaricati\fpc\trunk\fpc\rtl\embedded\arm\stm32f10x_md.pp"/>
+        <UnitName Value="stm32f10x_md"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="435"/>
+        <CursorPos X="17" Y="451"/>
+        <UsageCount Value="55"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="..\..\Scaricati\fpc\trunk\fpc\rtl\embedded\arm\cortexm3.pp"/>
+        <UnitName Value="cortexm3"/>
+        <EditorIndex Value="15"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="56"/>
+        <Loaded Value="True"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="swspi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SWSPI"/>
+        <EditorIndex Value="9"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="15" Y="3"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="swi2c.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SWI2C"/>
+        <EditorIndex Value="10"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="15" Y="3"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit37>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <Build>
+      <CleanOutputFileMask Value="Debug,Release,Wpo"/>
+    </Build>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="cx10_a.pas"/>
+        <Caret Line="164" Column="24" TopLine="147"/>
+      </Position1>
+      <Position2>
+        <Filename Value="nrf24l01.pas"/>
+        <Caret Line="527" Column="35" TopLine="512"/>
+      </Position2>
+      <Position3>
+        <Filename Value="nrf24l01.pas"/>
+        <Caret Line="486" Column="41" TopLine="474"/>
+      </Position3>
+      <Position4>
+        <Filename Value="cx10_a.pas"/>
+        <Caret Line="208" Column="35" TopLine="187"/>
+      </Position4>
+      <Position5>
+        <Filename Value="cx10_a.pas"/>
+        <Caret Line="179" Column="10" TopLine="163"/>
+      </Position5>
+      <Position6>
+        <Filename Value="nrf24l01.pas"/>
+        <Caret Line="529" Column="21" TopLine="498"/>
+      </Position6>
+      <Position7>
+        <Filename Value="main.pas"/>
+        <Caret Line="66" Column="39" TopLine="63"/>
+      </Position7>
+      <Position8>
+        <Filename Value="HelloWorld.lpr"/>
+        <Caret Line="107" Column="37" TopLine="91"/>
+      </Position8>
+      <Position9>
+        <Filename Value="cx10_a.pas"/>
+        <Caret Line="215" Column="25" TopLine="193"/>
+      </Position9>
+      <Position10>
+        <Filename Value="cx10_a.pas"/>
+        <Caret Line="102" Column="22" TopLine="79"/>
+      </Position10>
+      <Position11>
+        <Filename Value="cx10_a.pas"/>
+        <Caret Line="234" Column="13" TopLine="213"/>
+      </Position11>
+      <Position12>
+        <Filename Value="cx10_a.pas"/>
+        <Caret Line="220" Column="11" TopLine="206"/>
+      </Position12>
+      <Position13>
+        <Filename Value="cx10_a.pas"/>
+        <Caret Line="223" Column="12" TopLine="209"/>
+      </Position13>
+      <Position14>
+        <Filename Value="modelmanager.pas"/>
+        <Caret Line="138" Column="48" TopLine="119"/>
+      </Position14>
+      <Position15>
+        <Filename Value="modelmanager.pas"/>
+        <Caret Line="219" Column="58" TopLine="201"/>
+      </Position15>
+      <Position16>
+        <Filename Value="cx10_a.pas"/>
+        <Caret Line="253" Column="25" TopLine="238"/>
+      </Position16>
+      <Position17>
+        <Filename Value="main.pas"/>
+        <Caret Line="368" Column="5" TopLine="341"/>
+      </Position17>
+      <Position18>
+        <Filename Value="main.pas"/>
+        <Caret Line="253" Column="33" TopLine="231"/>
+      </Position18>
+      <Position19>
+        <Filename Value="main.pas"/>
+        <Caret Line="252" Column="32" TopLine="242"/>
+      </Position19>
+      <Position20>
+        <Filename Value="main.pas"/>
+        <Caret Line="264" Column="47" TopLine="250"/>
+      </Position20>
+      <Position21>
+        <Filename Value="main.pas"/>
+        <Caret Line="254" Column="54" TopLine="241"/>
+      </Position21>
+      <Position22>
+        <Filename Value="main.pas"/>
+        <Caret Line="272" Column="58" TopLine="264"/>
+      </Position22>
+      <Position23>
+        <Filename Value="main.pas"/>
+        <Caret Line="159" Column="19" TopLine="148"/>
+      </Position23>
+      <Position24>
+        <Filename Value="main.pas"/>
+        <Caret Line="58" Column="3" TopLine="37"/>
+      </Position24>
+      <Position25>
+        <Filename Value="main.pas"/>
+        <Caret Line="163" Column="3" TopLine="149"/>
+      </Position25>
+      <Position26>
+        <Filename Value="main.pas"/>
+        <Caret Line="307" Column="62" TopLine="298"/>
+      </Position26>
+      <Position27>
+        <Filename Value="main.pas"/>
+        <Caret Line="163" Column="1" TopLine="152"/>
+      </Position27>
+      <Position28>
+        <Filename Value="main.pas"/>
+        <Caret Line="53" Column="3" TopLine="44"/>
+      </Position28>
+      <Position29>
+        <Filename Value="main.pas"/>
+        <Caret Line="284" Column="8" TopLine="278"/>
+      </Position29>
+      <Position30>
+        <Filename Value="main.pas"/>
+        <Caret Line="302" Column="14" TopLine="289"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

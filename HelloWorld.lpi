@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <Flags>
+        <MainUnitHasUsesSectionForAllUnits Value="False"/>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="CustomRCSTM32"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+    </General>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="5">
+      <Item1 Name="Debug" Default="True"/>
+      <Item2 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="Release/$NameOnly($ProjFile())"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="Release/$(TargetCPU)-$(TargetOS)"/>
+            <SrcPath Value="../../Scaricati/fpc/trunk/fpc/rtl;../../Scaricati/fpc/trunk/fpc/rtl/objpas;../../Scaricati/fpc/trunk/fpc/rtl/embedded;../../Scaricati/fpc/trunk/fpc/rtl/embedded/arm"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <UseAnsiStrings Value="False"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <TargetCPU Value="arm"/>
+            <TargetOS Value="embedded"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+            <SmallerCode Value="True"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <UseLineInfoUnit Value="False"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+          </Linking>
+          <Other>
+            <Verbosity>
+              <ShowWarn Value="False"/>
+              <ShowNotes Value="False"/>
+              <ShoLineNum Value="True"/>
+              <ShowSummary Value="True"/>
+            </Verbosity>
+            <WriteFPCLogo Value="False"/>
+            <CompilerMessages>
+              <MsgFileName Value=""/>
+            </CompilerMessages>
+            <CustomOptions Value="-Cparmv7m 
+-Wpstm32f103x8 
+-XParm-none-eabi-
+ -OoNOSTACKFRAME"/>
+            <CompilerPath Value="$(CompPath)"/>
+            <ExecuteAfter>
+              <Command Value="arm-none-eabi-size $TargetFile().elf"/>
+              <ShowAllMessages Value="True"/>
+              <CompileReasons Run="False"/>
+            </ExecuteAfter>
+          </Other>
+        </CompilerOptions>
+      </Item2>
+      <Item3 Name="Default">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Parsing>
+            <SyntaxOptions>
+              <UseAnsiStrings Value="False"/>
+            </SyntaxOptions>
+          </Parsing>
+          <Other>
+            <CompilerPath Value="$(CompPath)"/>
+          </Other>
+        </CompilerOptions>
+      </Item3>
+      <Item4 Name="Pre-WPO">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="Wpo/HelloWorld"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="Wpo"/>
+            <SrcPath Value="$(LazarusDir)/fpc/3.1.1/rtl/embedded/arm"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <UseAnsiStrings Value="False"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <TargetProcessor Value="ARMV7M"/>
+            <TargetCPU Value="arm"/>
+            <TargetOS Value="embedded"/>
+            <Optimizations>
+              <OptimizationLevel Value="0"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <UseLineInfoUnit Value="False"/>
+            </Debugging>
+          </Linking>
+          <Other>
+            <CompilerMessages>
+              <MsgFileName Value=""/>
+            </CompilerMessages>
+            <CustomOptions Value="-Cparmv7m 
+-Wpstm32f103x8 
+-XParm-none-eabi-
+-CX 
+-XX
+-FW$TargetFile().fw
+-OWOPTVMTS"/>
+            <CompilerPath Value="$(CompPath)"/>
+            <ExecuteAfter>
+              <Command Value="C:/lazarus/arm-2014.04/bin/arm-none-eabi-size.exe $TargetFile().elf"/>
+              <ShowAllMessages Value="True"/>
+              <CompileReasons Run="False"/>
+            </ExecuteAfter>
+          </Other>
+        </CompilerOptions>
+      </Item4>
+      <Item5 Name="Post-WPO">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="Wpo/HelloWorld"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="Wpo"/>
+            <SrcPath Value="$(LazarusDir)/fpc/3.1.1/rtl/embedded/arm"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <UseAnsiStrings Value="False"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <TargetProcessor Value="ARMV7M"/>
+            <TargetCPU Value="arm"/>
+            <TargetOS Value="embedded"/>
+            <SmallerCode Value="True"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <UseLineInfoUnit Value="False"/>
+            </Debugging>
+          </Linking>
+          <Other>
+            <CompilerMessages>
+              <MsgFileName Value=""/>
+            </CompilerMessages>
+            <CustomOptions Value="-Cparmv7m 
+-Wpstm32f103x8 
+-XParm-none-eabi-
+-Fw$TargetFile().fw
+-OwOPTVMTS"/>
+            <CompilerPath Value="$(CompPath)"/>
+            <ExecuteAfter>
+              <Command Value="C:/lazarus/arm-2014.04/bin/arm-none-eabi-size.exe $TargetFile().elf"/>
+              <ShowAllMessages Value="True"/>
+              <CompileReasons Run="False"/>
+            </ExecuteAfter>
+          </Other>
+        </CompilerOptions>
+      </Item5>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <DestinationDirectory Value="$(ProjPath)/published/"/>
+      <CommandAfter Value="c:/lazarus/fpc/2.6.4/bin/i386-win32/zip.exe -r  $TargetFile() $(ProjPath)/published"/>
+      <UseIncludeFileFilter Value="False"/>
+      <UseExcludeFileFilter Value="True"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppl|a|o|so);*~;backup;Release;Debug"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <Units Count="25">
+      <Unit0>
+        <Filename Value="HelloWorld.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="arduino_compat.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Arduino_compat"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="hwserial.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="HWSerial"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="hwspi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="HWSPI"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="main"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="stm32f103fw.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="stm32f103fw"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="interrupts.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="interrupts"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="nokia1100_lcd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Nokia1100_LCD"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="nrf24l01.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="NRF24L01"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="yd717out.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="YD717OUT"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="commontx.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="commontx"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="hwtimer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="HWTimer"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="ppmout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="PPMOUT"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="menubackend.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="MenuBackend"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="simplemenu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SimpleMenu"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="mbedmenu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mbedMenu"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="mylist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="MyList"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="channelmixer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="channelMixer"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="modelmanager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ModelManager"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="flysout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FLYSOUT"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="v2x2out.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="V2X2OUT"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="ssd1306spi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ssd1306SPI"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="cx10_a.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CX10_A"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="swspi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SWSPI"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="swi2c.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SWI2C"/>
+      </Unit24>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="Debug/$NameOnly($ProjFile())"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="Debug/$(TargetCPU)-$(TargetOS)"/>
+      <SrcPath Value="../../Scaricati/fpc/trunk/fpc/rtl;../../Scaricati/fpc/trunk/fpc/rtl/objpas;../../Scaricati/fpc/trunk/fpc/rtl/embedded;../../Scaricati/fpc/trunk/fpc/rtl/embedded/arm"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <IncludeAssertionCode Value="True"/>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Checks>
+        <IOChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+      <TargetProcessor Value="ARMV7M"/>
+      <TargetCPU Value="arm"/>
+      <TargetOS Value="embedded"/>
+      <Optimizations>
+        <OptimizationLevel Value="0"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2"/>
+        <UseLineInfoUnit Value="False"/>
+      </Debugging>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <MsgFileName Value=""/>
+      </CompilerMessages>
+      <CustomOptions Value="-Cparmv7m 
+-Wpstm32f103x8 
+-XParm-none-eabi-"/>
+      <CompilerPath Value="$(CompPath)"/>
+      <ExecuteAfter>
+        <Command Value="arm-none-eabi-size $TargetFile().elf"/>
+        <ShowAllMessages Value="True"/>
+        <CompileReasons Run="False"/>
+      </ExecuteAfter>
+    </Other>
+  </CompilerOptions>
+</CONFIG>
