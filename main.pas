@@ -3,7 +3,7 @@ unit main;
 interface
 
 uses
-  stm32f103fw, interrupts, Arduino_compat, HWSerial, V2X2out, yd717out, cx10_a,
+  stm32f103fw, interrupts, Arduino_compat, HWSerial, V2X2out, yd717out, CX10_AOUT, SLTOUT,
   ppmout,flysout, nrf24l01, ssd1306SPI,commontx, HWTimer, channelMixer, ModelManager;
 
 procedure setup;
@@ -34,6 +34,7 @@ const
   FMSOUT_PROT=5;
   FLYSKY_PROT=6;
   BRAD_PROT=7;
+  SLT_PROT=8;
  // CALIBRATION=MENU_SIZE;
 
 
@@ -72,8 +73,11 @@ begin
     begin
         TIM_ClearITPendingBit(Timer2, TIM_IT_Update);
      //   testReadAnalog;
+
         currentModel.computeFrame;      //retrieve all channels and function data
+
         mytx.command(currentModel);     //send packet or update
+
     end;
  //  Serial1.println('Timer2');
 end;
@@ -207,6 +211,9 @@ begin
 	  YD717Prot : begin
                         mytx := TYD717OUT_TX.Create;
                       end;
+          SLTProt : begin
+                       mytx := TSLTOUT_TX.Create;
+	                 end;
  end;
 
 currentModel.computeFrame;
@@ -224,13 +231,17 @@ currentModel.computeFrame;
   mytx.bind;
   delay_ms(500);
   printProgressBar('     Bound!     ');
-
   currentModel.ppm_index:=1;
   sysTimer2:=TTImer_STM32.Create(Timer2,enabled);
+
   sysTimer2.setIntervalus(mytx.timeCycle*500);
+
   sysTimer2.start;
+
   setADC_DMA;
+
   setup_interrupts;
+
 
 end;
 

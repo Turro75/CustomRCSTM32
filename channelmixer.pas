@@ -89,7 +89,7 @@ begin
         adjustSign := False;
       end;
     end;
-    tmpParam := 10 * adjustValue * inValue div expoParams[chDual, curve];
+
     if curve = curve01Dual then
     begin
       curve := curve01;
@@ -106,7 +106,7 @@ begin
     begin
       curve := curve04;
     end;
-
+    tmpParam := 10 * adjustValue * inValue div expoParams[chDual, curve];
     case curve of
       curve01:
       begin

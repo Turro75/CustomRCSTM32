@@ -197,7 +197,7 @@
         <FormatVersion Value="1"/>
       </local>
     </RunParams>
-    <Units Count="25">
+    <Units Count="26">
       <Unit0>
         <Filename Value="HelloWorld.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -308,9 +308,9 @@
         <UnitName Value="ssd1306SPI"/>
       </Unit21>
       <Unit22>
-        <Filename Value="cx10_a.pas"/>
+        <Filename Value="cx10_aout.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="CX10_A"/>
+        <UnitName Value="CX10_AOUT"/>
       </Unit22>
       <Unit23>
         <Filename Value="swspi.pas"/>
@@ -322,6 +322,11 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="SWI2C"/>
       </Unit24>
+      <Unit25>
+        <Filename Value="sltout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SLTOUT"/>
+      </Unit25>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

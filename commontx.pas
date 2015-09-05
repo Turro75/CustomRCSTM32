@@ -39,7 +39,8 @@ type
     PPM_N_Prot,
     FMSProt,
     FSkyProt,
-    FS_Bind);
+    FS_Bind,
+    SLTProt);
 
 
   TCalibData = (CalMin, calMid, calMax);

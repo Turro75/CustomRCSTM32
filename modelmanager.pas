@@ -39,7 +39,7 @@ begin
   tmpList[6] := 'PPM_10';
   tmpList[7] := ' FLYS ';
   tmpList[8] := 'FS_BND';
-  tmpList[9] := ' FREE ';
+  tmpList[9] := 'TACTIC';
   Result := tmpList;
 end;
 
@@ -228,7 +228,21 @@ begin
     end;
     9:
     begin
-      //FREE
+      tmpModel.serialBaudRate := 115200;
+      tmpModel.ppm_max := 1700;
+      tmpModel.ppm_min := 700;
+      tmpModel.ppm_period := 18500;
+      tmpModel.ppm_pause := 300;
+      tmpModel.ppm_positive := True;
+      tmpModel.protocol := sltprot;
+      tmpModel.channels[2] := TChannel.Create(LVStick, throttle, 100, curve00);
+      tmpModel.channels[3] := TChannel.Create(LHStick, rudder, 50, curve02Dual);
+      tmpModel.channels[1] := TChannel.Create(RVStick, elevator, 50, curve02Dual);
+      tmpModel.channels[0] := TChannel.Create(RHStick, aileron, -50, curve02Dual);
+      tmpModel.channels[4] := TChannel.Create(SW1, dualRateDg, -100, curve00);
+      tmpModel.channels[5] := TChannel.Create(SW5, throttleCut, -100, curve00);
+      tmpModel.channels[6] := TChannel.Create(Pot1, aux01, 100, curve00);
+      tmpModel.channels[7] := TChannel.Create(Pot2, aux02, 100, curve00);
     end;
   end;
 
